@@ -184,9 +184,9 @@ img {
 }
 
 .header {
-    background-image: url(./images/IMG_2158.jpeg);
+    /*background-image: url(./images/IMG_2158.jpeg);*/
     min-height: 100vh;
-    background-color: #111;
+    background-color: #000000;
     background-position: top right;
     background-size: cover;
     background-attachment: fixed;
@@ -195,7 +195,7 @@ img {
 
 .header {
     min-height: 100vh;
-    background-color: #111;
+    background-color: #5e88d7;
     display: flex;
     align-items: center;
 
