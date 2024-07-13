@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <strong>LA</strong> Luke Adams </a>
+            </div>
+
+            <ul class="navbar-links">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#works">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header">
+        <div class="container">
+            <div class="box">
+                <h4 class="head-text-1">Hey!</h4>
+                <h1 class="head-text-2">I'm Sohum Balsara</h1>
+                <p class="sub-text-1">
+                    I am currently a Computer Science and Economics student at Ithaca College.
+                    This is a showcase of a passion project in photography that I started alongside my mum a few years ago.
+                    Enjoy!
+                </p>
+                <a href="#works" class="btn">Gallery</a>
+                <a href="#contact" class="btn">Contact me</a>
+                <a href="https://www.linkedin.com/in/sohum-balsara-74aa61302/" class="btn">LinkedIn</a>
+                <a href="https://github.com/sbalsara05" class="btn">GitHub</a>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- About section -->
+    <section class="about bg-light" id="about">
+        <div class="container">
+
+            <div class="box">
+                <h2 class="title-text">
+                    Computer Science Student and part-time Photographer
+                </h2>
+                <p class = "description-text">
+                    I believe a picture tells a thousand words, sometimes more. Photos are a way to paint the canvas of your mind and imagination.
+                </p>
+
+
+                <div class="about-bottom">
+                    <img src="./images/signature-modified-removebg-preview.svg" alt="Picture of Signature"
+                        class="signature">
+                    <div class="about-name-wrapper">
+                        <div class="about-name-dark">Sohum Balsara</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-img">
+                <div class="img">
+                    <img src="./images/IMG_6379.jpeg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- About section -->
+
+
+    <!-- Services section -->
+    <section class="services bg-dark" id="services">
+    <div class="heading">
+        <h2 class="section-title"><span>What I Can Do</span></h2>
+        <p class="section-title2">A showcase of my various talents in the world of Photography</p>
+    </div>
+    <div class="container-skills">
+        <div class="grid-container-skills">
+            <div class="box border-01">
+                <div class="item">
+                    <img src="./images/icons/icon-1.svg" alt="">
+                    <a href="services-page.html">
+                        <h6 class="skills-title">Photography</h6>
+                        <p>Taking Photos of various things from cars, sunrises, sunsets, and much more.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="box border-02">
+                <div class="item">
+                    <img src="./images/icons/icon-2.svg" alt="">
+                    <a href="services-page.html">
+                        <h6 class="skills-title">Videography</h6>
+                        <p>Mostly consists of taking videos of cars, including my Honda S2000</p>
+                    </a>
+                </div>
+            </div>
+            <div class="box border-03">
+                <div class="item">
+                    <img src="./images/icons/icon-3.svg" alt="">
+                    <a href="services-page.html">
+                        <h6 class="skills-title">Photo Retouching</h6>
+                        <p>Photo Retouching photos in Adobe Lightroom and Photoshop respectively.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="box border-06">
+                <div class="item">
+                    <img src="./images/icons/icon-6.svg" alt="">
+                    <a href="services-page.html">
+                        <h6 class="skills-title">Photoshop</h6>
+                        <p>Visually changing Photos through Adobe Photoshop</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Services section -->
+
+
+
+    <!-- Works Gallery -->
+<!--    <section class="gallery bg-dark" id="works">-->
+<!--        <div class="heading">-->
+<!--            <h2 class="title">Gallery</h2>-->
+<!--        </div>-->
+<!--        <div class="container">-->
+<!--            <ul id="filter">-->
+<!--                <li class="active" data-filter=".all">Featured</li>-->
+<!--                <li onclick="filterImages('.personal')">Personal</li>-->
+<!--                <li onclick="filterImages('.cars')">Cars</li>-->
+<!--                <li onclick="filterImages('.sunrises')">Sunrises</li>-->
+<!--                <li onclick="filterImages('.sunsets')">Sunsets</li>-->
+<!--                <li onclick="filterImages('.cities&towns')">Cities & Towns</li>-->
+<!--            </ul>-->
+   <section class="gallery bg-dark" id="works">
+    <div class="heading">
+        <h2 class="title">Gallery</h2>
+    </div>
+    <div class="container">
+        <ul id="filter">
+            <li class="active" data-filter=".all">All</li>
+            <li data-filter=".cars">Cars</li>
+            <li data-filter=".sunrises">Sunrises</li>
+            <li data-filter=".sunsets">Sunsets</li>
+            <li data-filter=".cities">Cities</li>
+            <li data-filter=".towns">Towns</li>
+        </ul>
+    </div>
+
+    <div class="container-gallery">
+        <div class="grid-wrapper" id="imageGrid">
+            <div class="image" data-filter=".cars">
+                <img src="./images/IMG_2278.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".cars">
+                <img src="./images/IMG_4192.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".cars">
+                <img src="./images/IMG_6150.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".cars">
+                <img src="./images/IMG_2425.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".cars">
+                <img src="./images/CAR - 1.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".cars">
+                <img src="./images/CAR -2.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".sunsets">
+                <img src="./images/IMG_4210.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".sunsets">
+                <img src="./images/IMG_4563.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".sunsets">
+                <img src="./images/IMG_2673.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".sunsets">
+                <img src="./images/IMG_2676.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".sunsets">
+                <img src="./images/IMG_4872.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".sunsets">
+                <img src="./images/IMG_6779.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".sunrises">
+                <img src="./images/IMG_2081.jpeg" alt="" />
+            </div>
+            <div class="image" data-filter=".sunrises">
+                <img src="./images/IMG_2219.jpeg" alt="" />
+            </div>
+            <div class="image " data-filter=".sunrises">
+                <img src="./images/IMG_2083.jpeg" alt="" />
+            </div>
+            <div class="image " data-filter=".sunrises">
+                <img src="./images/IMG_6190.jpeg" alt="" />
+            </div>
+            <div class="image " data-filter=".cities-towns">
+                <img src="./images/IMG_6305.jpeg" alt="" />
+            </div>
+            <div class="image " data-filter=".cities-towns">
+                <img src="./images/IMG_6236.jpeg" alt="" />
+            </div>
+            <div class="image " data-filter=".cities-towns">
+                <img src="./images/IMG_5117.jpeg" alt="" />
+            </div>
+            <div class="image " data-filter=".cities-towns">
+                <img src="./images/IMG_2219.jpeg" alt="" />
+            </div>
+            <div class="image " data-filter=".towns">
+                <img src="./images/IMG_5314.jpeg" alt="" />
+            </div>
+            <div class="image " data-filter=".towns">
+                <img src="./images/IMG_5302.jpeg" alt="" />
+            </div>
+            <div class="image " data-filter=".towns">
+                <img src="./images/IMG_5231.jpeg" alt="" />
+            </div>
+            <div class="image " data-filter=".towns">
+                <img src="./images/IMG_4441.jpeg" alt="" />
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!--  Works Gallery -->
+
+    <!-- Contact section -->
+    <section class="contact bg-light" id="contact">
+        <div class="container">
+
+            <div class="box">
+                <h2 class="title contact-title">
+                    Contact Me
+                </h2>
+                <ul>
+                    <li>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span>860-574-4620</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-at" aria-hidden="true"></i>
+                        <span>sohum@sohumbalsara.com</span>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="box">
+                <div class="box-r">
+                    <div class="form-box">
+                        <div class="form-title">
+                            <h2>Get in touch</h2>
+                        </div>
+                        <form>
+                            <div class="one-line">
+                                <div class="box-input">
+                                    <i class="far fa-user"></i>
+                                    <input type="text" name="" id="name" class="text" placeholder="Full Name..">
+                                </div>
+                                <div class="box-input">
+                                    <i class="fa fa-phone"></i>
+                                    <input type="text" name="" id="phone" class="text" placeholder="your phone">
+                                </div>
+                            </div>
+
+                            <div class="box-input">
+                                <i class="fa fa-at"></i>
+                                <input type="email" name="" id="email" class="text" placeholder="email..">
+                            </div>
+<!--                            <div class="box-input">-->
+<!--                                <i class="fa fa-envelope"></i>-->
+<!--                                <textarea name="message" id="message" cols="30" rows="5" placeholder="Your message.."></textarea>-->
+
+<!--                            </div>-->
+                            <button class="btn-send"><a href="mailto:sohum@sohumbalsara.com" class="btn-send">Contact</a></button>
+                        </form>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact section -->
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+
+
+        <div class="second-footer">
+            <div class="container">
+                <div class="box">
+                    <div class="logo-wrapper">
+                        <a class="logo" href="index.html"> <strong>SB</strong> Sohum Balsara </a>
+                    </div>
+                    <div class="text">
+                        <p>“Photography has no rules, it is not a sport."</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3 class="title">Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Skills</a></li>
+                        <li><a href="#works">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h3 class="title">Contact</h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <span>
+                                860-574-4620
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa fa-at"></i>
+                            <span>
+                                sohum@sohumbalsara.com
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" copyright">
+            <div class="box">
+                <p class="">Copyright © 2024 by <a href="#">Sohum Balsara</a>. All rights reserved.</p>
+            </div>
+
+        </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
