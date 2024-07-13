@@ -38,7 +38,7 @@ section .box {
 }
 
 .bg-light {
-    background-color: #e7eacb;
+    background-color: #000000;
 }
 
 .bg-light .heading h2 {
@@ -114,10 +114,14 @@ section .box {
 }
 
 .title-text{
-    color: #8a2be2;
+    color: #5388e8;
 }
 
 .description-text{
+    color: #ffffff;
+}
+
+.about-me-text{
     color: #8a2be2;
 }
 

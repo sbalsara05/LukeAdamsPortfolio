@@ -89,6 +89,19 @@ img {
         -1px 1px 0 #0b0b0b,  /* Bottom left */
         1px 1px 0 #0b0b0b;   /* Bottom right */
 }
+
+
+.head-text-3{
+    display: inline-block;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    text-shadow:
+         -1px -1px 0 #0b0b0b, /* Top left */
+        1px -1px 0 #0b0b0b,  /* Top right */
+        -1px 1px 0 #0b0b0b,  /* Bottom left */
+        1px 1px 0 #0b0b0b;   /* Bottom right */
+}
 .sub-text-1 {
     display: inline-block; /* Ensure the box width fits the text */
     color: white; /* Text color */
