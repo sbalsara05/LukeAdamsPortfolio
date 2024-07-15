@@ -5,6 +5,8 @@ section {
     justify-content: center;
 }
 
+
+
 section .container {
     width: 100%;
 }
@@ -33,22 +35,31 @@ section .container {
 
 
 section .box {
+    margin-top: 25px;
     max-width: 50%;
     min-width: 300px;
 }
 
+.section-title{
+    color: #5e88d7;
+}
+
+.section-description{
+    color:white;
+}
+
 .bg-light {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .bg-light .heading h2 {
     color: #000;
 }
 .bg-light .title {
-    color: #111;
+    color: #ffffff;
 }
 .bg-light p {
-    color: #333;
+    color: rgba(0, 0, 0, 0);
 }
 
 .bg-dark {
@@ -56,10 +67,10 @@ section .box {
 }
 
 .bg-dark .heading h2 {
-    color: #e7eacb;
+    color: #5e88d7;
 }
 .bg-dark .title {
-    color: #e7eacb;
+    color: #5e88d7;
 }
 .bg-dark p {
     color: #aaa;
@@ -109,7 +120,7 @@ section .box {
 .about-img .img img {
     position: relative;
     z-index: 2;
-    background: #8a2be2;
+    background: rgba(255, 255, 255, 0);
     height: 300px;
 }
 
@@ -118,11 +129,11 @@ section .box {
 }
 
 .description-text{
-    color: #ffffff;
+    color: #000000;
 }
 
 .about-me-text{
-    color: #8a2be2;
+    color: #000000;
 }
 
 .about-img img:hover {
@@ -150,8 +161,8 @@ section .box {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #8a2be2;
-    color: #8a2be2;
+    background-color: #5e88d7;
+    color: #ffffff;
     font-size: 12px;
 }
 
@@ -176,6 +187,10 @@ section .box {
 .about-name-dark{
     color: black;
     width: 100%;
+}
+
+.about-name-light{
+    color: white;
 }
 
 /* ======= services style ======= */
@@ -227,11 +242,15 @@ section .box {
 .services .box .item p {
     font-size: 14px;
     line-height: 20px;
-    color: #e7eacb;
+    color: #5e88d7;
 }
 
 .skills-title{
-    color: #e7eacb;
+    color: #5e88d7;
+}
+
+.skills-description{
+    color: #5e88d7;
 }
 
 /*.border-01 {*/
@@ -296,8 +315,8 @@ section .box {
 }
 .gallery .active,
     .gallery li:hover{
-    color: #e7eacb;
-    border-bottom: 1px solid #e7eacb;
+    color: #ffffff;
+    border-bottom: 1px solid #000000;
 }
 
 .grid-wrapper {
@@ -309,7 +328,7 @@ section .box {
     grid-auto-flow: dense;
 }
 
-
+/* Ensuring images fit within their containers */
 .grid-wrapper img {
     max-width: 100%;
     height: auto;
@@ -317,7 +336,7 @@ section .box {
     display: inline-block;
 }
 
-/* Main CSS */
+/* Centering images within their grid cells */
 .grid-wrapper .image {
     position: relative;
     display: flex;
@@ -325,11 +344,13 @@ section .box {
     align-items: center;
 }
 
+/* Ensuring images cover their entire grid cell */
 .grid-wrapper .image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 
 
 .grid-wrapper .wide {
@@ -375,13 +396,13 @@ section .box {
     cursor: pointer;
     display: inline-block;
     padding: 8px 16px;
-    background-color: #e7eacb;
+    background-color: #000000;
     margin: 0 5px;
 }
 
         /* Add a dark background to the active button */
 #filter li.active {
-    background-color: #8a2be2;
+    background-color: #5e88d7;
     color: white;
 }
 
@@ -439,7 +460,7 @@ section .box {
     position: absolute;
     top: 30px;
     left: 30px;
-    background-color: #8a2be2;
+    background-color: #5e88d7;
     height: 100%;
     width: 100%;
     z-index: 0;
@@ -459,7 +480,7 @@ section .box {
 
 .contact .form-box h2 {
     font-size: 22px;
-    color: #e7eacb;
+    color: #ffffff;
 }
 
 
@@ -484,7 +505,7 @@ section .box {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 0rem;
-    border-bottom: 1px solid #e7eacb;
+    border-bottom: 1px solid #ffffff;
     border-radius: 1px;
 }
 
@@ -496,7 +517,7 @@ section .box {
 }
 
 .contact .box-input i {
-    color: #e7eacb;
+    color: #ffffff;
 }
 
 .contact .box-input textarea,
@@ -505,7 +526,7 @@ section .box {
     font-size: 14px;
     border: none;
     background-color: transparent;
-    color: #e7eacb;
+    color: #ffffff;
 }
 
 .contact .box-input textarea {
@@ -515,7 +536,7 @@ section .box {
 
 .contact .box-input textarea::placeholder,
 .contact .box-input input::placeholder {
-    color: #e7eacb;
+    color: #ffffff;
     font-size: 12px;
     text-transform: capitalize;
 }
@@ -533,19 +554,29 @@ section .box {
     padding-bottom: 63px;
     padding-left: 4px;
 }
-contact-title{
-    color: #8a2be2;
+
+.fa-phone{
+    color: white;
 }
 
+.fa-at{
+    color: white;
+}
+contact-title{
+    color: #608fe7;
+}
+
+
 .contact bg-light{
-    color: #8a2be2;
-    background-color: #e7eacb;
+    color: #5e88d7;
+    background-color: #5e88d7;
 
 }
 
 .btn-send {
-    background-color: #e7eacb;
+    background-color: #5e88d7;
     color: #282424;
+    font-weight: bold;
     padding: 0.75rem 1rem;
     border: none;
 }
