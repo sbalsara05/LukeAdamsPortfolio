@@ -372,6 +372,8 @@ section .box {
 
 .container-gallery {
     display: inline-block;
+    padding-left: 55px;
+    padding-bottom: 10px;
 
 }
 
@@ -385,9 +387,10 @@ section .box {
 
 
 
+
     /*width: auto;*/
     /*height: 220px;*/
-    /*position: relative; !* Add relative positioning *!*/
+    position: relative; /* Add relative positioning */
 }
 
 
