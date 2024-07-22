@@ -1,46 +1,71 @@
 document.addEventListener("DOMContentLoaded", function() {
     const images = [
 
-        { src: "./images/IMG_2673.jpeg", category: "featured" },
-        { src: "./images/IMG_2676.jpeg", category: "featured" },
-        { src: "./images/IMG_4872.jpeg", category: "featured" },
-        { src: "./images/IMG_6779.jpeg", category: "featured" },
+        { src: "./images/LukeAdamPhotos/IMG_3282.jpg", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_5483.JPG", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_7139.jpg", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_7428.JPG", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_7587.jpg", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_7632.jpg", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_8059.jpg", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_8510.JPG", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_8515.JPG", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_8582.jpg", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_8660.jpg", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_8847.JPG", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_8697.jpg", category: "portrait" },
 
 
-        { src: "./images/IMG_4210.jpeg", category: "sunsets"},
-        { src: "./images/IMG_4563.jpeg", category: "sunsets" },
 
-        { src: "./images/IMG_2278.jpeg", category: "cars" },
-        { src: "./images/IMG_4192.jpeg", category: "cars" },
-        { src: "./images/IMG_6150.jpeg", category: "cars" },
-        { src: "./images/IMG_2425.jpeg", category: "cars" },
-        { src: "./images/CAR - 1.jpeg", category: "cars" },
-        { src: "./images/CAR -2.jpeg", category: "cars" },
+        { src: "./images/LukeAdamPhotos/FullSizeRender.jpg", category: "designs"},
+        { src: "./images/LukeAdamPhotos/IMG_5149.JPG", category: "designs" },
+        { src: "./images/LukeAdamPhotos/IMG_5480.JPG", category: "designs"},
+        { src: "./images/LukeAdamPhotos/IMG_7579.jpg", category: "designs" },
+        { src: "./images/LukeAdamPhotos/IMG_7824.JPG", category: "designs"},
+        { src: "./images/LukeAdamPhotos/IMG_8132.JPG", category: "designs" },
+        { src: "./images/LukeAdamPhotos/IMG_8204.JPG", category: "designs"},
+        { src: "./images/LukeAdamPhotos/IMG_8513.JPG", category: "designs" },
+        { src: "./images/LukeAdamPhotos/IMG_8514.JPG", category: "designs"},
+        { src: "./images/LukeAdamPhotos/IMG_8580.JPG", category: "designs" },
 
-        { src: "./images/IMG_2673.jpeg", category: "sunsets" },
-        { src: "./images/IMG_2676.jpeg", category: "sunsets" },
-        { src: "./images/IMG_4872.jpeg", category: "sunsets" },
-        { src: "./images/IMG_6779.jpeg", category: "sunsets" },
+        { src: "./images/LukeAdamPhotos/DovesandCrowsLukeAdams.jpg", category: "patterns" },
+        { src: "./images/LukeAdamPhotos/IMG_7079.JPG", category: "patterns" },
+        { src: "./images/LukeAdamPhotos/IMG_7486.JPG", category: "patterns" },
+        { src: "./images/LukeAdamPhotos/IMG_7833.JPG", category: "patterns" },
+        { src: "./images/LukeAdamPhotos/IMG_8141.JPG", category: "patterns" },
+        { src: "./images/LukeAdamPhotos/IMG_8401.JPG", category: "patterns" },
+        { src:"./images/LukeAdamPhotos/lukeadams9_15.JPEG", category: "patterns" },
 
-        { src: "./images/IMG_2081.jpeg", category: "sunrises" },
-        { src: "./images/IMG_2219.jpeg", category: "sunrises" },
-        { src: "./images/IMG_2083.jpeg", category: "sunrises" },
-        { src: "./images/IMG_6190.jpeg", category: "sunrises" },
+        { src: "./images/LukeAdamPhotos/IMG_6665.PNG", category: "photography" },
+        { src: "./images/LukeAdamPhotos/IMG_6640.jpeg", category: "photography" },
+        { src: "./images/LukeAdamPhotos/IMG_6644.jpeg", category: "photography" },
+        { src: "./images/LukeAdamPhotos/IMG_6647.jpeg", category: "photography" },
+        { src: "./images/LukeAdamPhotos/IMG_6649.jpeg", category: "photography" },
+        { src: "./images/LukeAdamPhotos/IMG_6655.jpeg", category: "photography" },
+        { src: "./images/LukeAdamPhotos/IMG_6659.jpeg", category: "photography" },
+        { src: "./images/LukeAdamPhotos/IMG_6660.jpeg", category: "photography" },
+        { src: "./images/LukeAdamPhotos/IMG_6662.jpeg", category: "photography" },
+        { src: "./images/LukeAdamPhotos/IMG_6664.jpeg", category: "photography" },
 
-        { src: "./images/IMG_6305.jpeg", category: "cities" },
-        { src: "./images/IMG_6236.jpeg", category: "cities" },
-        { src: "./images/IMG_5117.jpeg", category: "cities" },
-        { src: "./images/IMG_2219.jpeg", category: "cities" },
-
-        { src: "./images/IMG_5314.jpeg", category: "towns" },
-        { src: "./images/IMG_5302.jpeg", category: "towns" },
-        { src: "./images/IMG_5231.jpeg", category: "towns" },
-        { src: "./images/IMG_4441.jpeg", category: "towns" },
+        // { src: "./images/IMG_2081.jpeg", category: "sunrises" },
+        // { src: "./images/IMG_2219.jpeg", category: "sunrises" },
+        // { src: "./images/IMG_2083.jpeg", category: "sunrises" },
+        // { src: "./images/IMG_6190.jpeg", category: "sunrises" },
+        //
+        // { src: "./images/IMG_6305.jpeg", category: "cities" },
+        // { src: "./images/IMG_6236.jpeg", category: "cities" },
+        // { src: "./images/IMG_5117.jpeg", category: "cities" },
+        // { src: "./images/IMG_2219.jpeg", category: "cities" },
+        //
+        // { src: "./images/IMG_5314.jpeg", category: "towns" },
+        // { src: "./images/IMG_5302.jpeg", category: "towns" },
+        // { src: "./images/IMG_5231.jpeg", category: "towns" },
+        // { src: "./images/IMG_4441.jpeg", category: "towns" },
 
 
     ];
 
-    const filterOptions = ["Featured", "Cars", "Sunrises", "Sunsets", "Cities" ,"Towns"];
+    const filterOptions = ["All", "Portraits", "Designs", "Patterns","Photography"];
     const imageGrid = document.getElementById("imageGrid");
     const filterList = document.getElementById("filter");
 
