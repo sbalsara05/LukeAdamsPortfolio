@@ -136,6 +136,11 @@ img {
 
 }
 
+.brand-text{
+    color: #5e88d7;
+    text-decoration: underline dotted;
+}
+
 .logo-wrapper a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
