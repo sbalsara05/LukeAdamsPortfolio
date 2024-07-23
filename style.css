@@ -519,6 +519,8 @@ section .box {
 
 .contact {
     position: relative;
+    background-color: rgba(249, 249, 249, 100);
+    padding: 20px;
 }
 
 .contact ul {
@@ -527,21 +529,21 @@ section .box {
     gap: 1rem;
 }
 
-.contact ul li{
+.contact ul li {
     font-size: 18px;
     color: #333;
 }
+
 .contact ul span {
     font-size: 16px;
     color: #333;
-    padding: 0px 4px;
+    padding: 0 4px;
 }
+
 .contact .form-title {
     font-size: 18px;
     color: #000;
 }
-
-
 
 .contact .box-r {
     position: relative;
@@ -577,7 +579,7 @@ section .box {
     top: -8%;
     bottom: 55%;
     left: -5%;
-    background-image: url(./images/dots.png);
+    background-image: url('./images/dots.png');
     background-repeat: repeat;
     z-index: 0;
 }
@@ -587,13 +589,11 @@ section .box {
     color: #ffffff;
 }
 
-
 .contact form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-
 
 .contact .one-line {
     display: flex;
@@ -601,23 +601,20 @@ section .box {
     gap: 1rem;
 }
 
-
-
 .contact .box-input {
     position: relative;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.75rem 0rem;
+    padding: 0.75rem 0;
     border-bottom: 1px solid #ffffff;
     border-radius: 1px;
 }
 
 .contact .box-input label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0.66rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .contact .box-input i {
@@ -645,42 +642,36 @@ section .box {
     text-transform: capitalize;
 }
 
-.address{
-    padding-left:30px;
-
+.address {
+    padding-left: 30px;
 }
 
-.fa-location-pin{
+.fa-location-pin {
     margin-right: 2000px;
 }
 
-.fa-envelope{
+.fa-envelope {
     padding-bottom: 63px;
     padding-left: 4px;
 }
 
-.fa-phone{
+.fa-phone, .fa-at {
     color: white;
 }
 
-.fa-at{
-    color: white;
-}
-contact-title{
+.contact-title {
     color: #608fe7;
 }
 
-
-.contact bg-light{
-    color: #5e88d7;
-    background-color: #5e88d7;
-
+.contact.bg-light {
+    background-color: #f9f9f9;
 }
 
 .btn-send {
     background-color: #5e88d7;
     color: #282424;
     font-weight: bold;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem;
+    outline: transparent;
     border: none;
 }
