@@ -12,8 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
         { src: "./images/LukeAdamPhotos/IMG_8515.JPG", category: "portrait" },
         { src: "./images/LukeAdamPhotos/IMG_8582.jpg", category: "portrait" },
         { src: "./images/LukeAdamPhotos/IMG_8660.jpg", category: "portrait" },
-        { src: "./images/LukeAdamPhotos/IMG_8847.JPG", category: "portrait" },
         { src: "./images/LukeAdamPhotos/IMG_8697.jpg", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_8132.JPG", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_8925.JPG", category: "portrait" },
 
 
 
@@ -21,20 +22,22 @@ document.addEventListener("DOMContentLoaded", function() {
         { src: "./images/LukeAdamPhotos/IMG_5149.JPG", category: "designs" },
         { src: "./images/LukeAdamPhotos/IMG_5480.JPG", category: "designs"},
         { src: "./images/LukeAdamPhotos/IMG_7579.jpg", category: "designs" },
-        { src: "./images/LukeAdamPhotos/IMG_7824.JPG", category: "designs"},
         { src: "./images/LukeAdamPhotos/IMG_8132.JPG", category: "designs" },
-        { src: "./images/LukeAdamPhotos/IMG_8204.JPG", category: "designs"},
         { src: "./images/LukeAdamPhotos/IMG_8513.JPG", category: "designs" },
         { src: "./images/LukeAdamPhotos/IMG_8514.JPG", category: "designs"},
         { src: "./images/LukeAdamPhotos/IMG_8580.JPG", category: "designs" },
+        { src:"./images/LukeAdamPhotos/lukeadams9_15.JPEG", category: "designs" },
+        { src: "./images/LukeAdamPhotos/DovesandCrowsLukeAdams.jpg", category: "designs" },
 
-        { src: "./images/LukeAdamPhotos/DovesandCrowsLukeAdams.jpg", category: "patterns" },
+
+
         { src: "./images/LukeAdamPhotos/IMG_7079.JPG", category: "patterns" },
         { src: "./images/LukeAdamPhotos/IMG_7486.JPG", category: "patterns" },
         { src: "./images/LukeAdamPhotos/IMG_7833.JPG", category: "patterns" },
         { src: "./images/LukeAdamPhotos/IMG_8141.JPG", category: "patterns" },
         { src: "./images/LukeAdamPhotos/IMG_8401.JPG", category: "patterns" },
-        { src:"./images/LukeAdamPhotos/lukeadams9_15.JPEG", category: "patterns" },
+
+        { src: "./images/LukeAdamPhotos/IMG_7824.JPG", category: "patterns"},
 
         { src: "./images/LukeAdamPhotos/IMG_6665.PNG", category: "photography" },
         { src: "./images/LukeAdamPhotos/IMG_6640.jpeg", category: "photography" },
@@ -46,6 +49,11 @@ document.addEventListener("DOMContentLoaded", function() {
         { src: "./images/LukeAdamPhotos/IMG_6660.jpeg", category: "photography" },
         { src: "./images/LukeAdamPhotos/IMG_6662.jpeg", category: "photography" },
         { src: "./images/LukeAdamPhotos/IMG_6664.jpeg", category: "photography" },
+        { src: "./images/LukeAdamPhotos/IMG_8204.JPG", category: "photography"},
+        { src: "./images/LukeAdamPhotos/IMG_8580.JPG", category: "photography" },
+        { src: "./images/LukeAdamPhotos/IMG_8559.JPG", category: "photography"},
+        { src: "./images/LukeAdamPhotos/IMG_8847.JPG", category: "photography" },
+
 
         // { src: "./images/IMG_2081.jpeg", category: "sunrises" },
         // { src: "./images/IMG_2219.jpeg", category: "sunrises" },
