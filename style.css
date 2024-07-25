@@ -617,6 +617,7 @@ section .box {
     align-items: center;
 }
 
+
 .contact .box-input i {
     color: #ffffff;
 }
@@ -674,4 +675,11 @@ section .box {
     padding: 0.75rem;
     outline: transparent;
     border: none;
+}
+
+@media (max-width: 500px) {
+    .contact .box-r:before {
+        top: 10px;
+        left: 10px;
+    }
 }
