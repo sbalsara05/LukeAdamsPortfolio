@@ -112,7 +112,8 @@ section .box {
 }
 
 .about-img .img {
-    width: 300px;
+    width: auto;
+    height: auto;
     padding: 0 30px 30px 15px;
     position: relative;
 }
@@ -462,7 +463,15 @@ section .box {
 }
 
 .container-gallery {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-gallery .image {
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
 }
 
 .grid-wrapper {
@@ -516,6 +525,11 @@ section .box {
 }
 
 
+.image.landscape img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 .contact {
     position: relative;
@@ -683,3 +697,4 @@ section .box {
         left: 10px;
     }
 }
+

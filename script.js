@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { src: "./images/LukeAdamPhotos/IMG_8132.JPG", category: "designs" },
         { src: "./images/LukeAdamPhotos/IMG_8513.JPG", category: "designs" },
         { src: "./images/LukeAdamPhotos/IMG_8514.JPG", category: "designs"},
-        { src: "./images/LukeAdamPhotos/IMG_8580.JPG", category: "designs" },
+        // { src: "./images/LukeAdamPhotos/IMG_8580.JPG", category: "designs" },
         { src:"./images/LukeAdamPhotos/lukeadams9_15.JPEG", category: "designs" },
         { src: "./images/LukeAdamPhotos/DovesandCrowsLukeAdams.jpg", category: "designs" },
 
@@ -45,14 +45,17 @@ document.addEventListener("DOMContentLoaded", function() {
         { src: "./images/LukeAdamPhotos/IMG_6647.jpeg", category: "photography" },
         { src: "./images/LukeAdamPhotos/IMG_6649.jpeg", category: "photography" },
         { src: "./images/LukeAdamPhotos/IMG_6655.jpeg", category: "photography" },
+
         { src: "./images/LukeAdamPhotos/IMG_6659.jpeg", category: "photography" },
         { src: "./images/LukeAdamPhotos/IMG_6660.jpeg", category: "photography" },
         { src: "./images/LukeAdamPhotos/IMG_6662.jpeg", category: "photography" },
         { src: "./images/LukeAdamPhotos/IMG_6664.jpeg", category: "photography" },
-        { src: "./images/LukeAdamPhotos/IMG_8204.JPG", category: "photography"},
-        { src: "./images/LukeAdamPhotos/IMG_8580.JPG", category: "photography" },
-        { src: "./images/LukeAdamPhotos/IMG_8559.JPG", category: "photography"},
-        { src: "./images/LukeAdamPhotos/IMG_8847.JPG", category: "photography" },
+
+        { src: "./images/LukeAdamPhotos/IMG_8204.jpeg", category: "photography"},
+        { src: "./images/LukeAdamPhotos/IMG_8580.jpeg", category: "photography" },
+        { src: "./images/LukeAdamPhotos/IMG_8559.jpeg", category: "photography"},
+        { src: "./images/LukeAdamPhotos/IMG_8847.jpeg", category: "photography" },
+
 
 
         // { src: "./images/IMG_2081.jpeg", category: "sunrises" },
