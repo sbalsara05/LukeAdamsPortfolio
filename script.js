@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { src: "./images/LukeAdamPhotos/IMG_8660.jpg", category: "portrait" },
         { src: "./images/LukeAdamPhotos/IMG_8697.jpg", category: "portrait" },
         { src: "./images/LukeAdamPhotos/IMG_8132.JPG", category: "portrait" },
-        { src: "./images/LukeAdamPhotos/IMG_8925.JPG", category: "portrait" },
+        { src: "./images/LukeAdamPhotos/IMG_8925.jpg", category: "portrait" },
 
 
 
