@@ -97,7 +97,7 @@ section .box {
     right: 0;
     left: 45px;
     bottom: 0;
-    background-color: #2b2b2b;
+    background-color: #000000;
 }
 .about-img .img:after {
     content: '';
@@ -112,8 +112,8 @@ section .box {
 }
 
 .about-img .img {
-    width: auto;
-    height: auto;
+    width: 260px;
+    height: 330px;
     padding: 0 30px 30px 15px;
     position: relative;
 }
