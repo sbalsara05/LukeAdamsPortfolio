@@ -395,3 +395,6 @@ img {
     gap: 1rem;
     text-decoration: none;
 }
+.text{
+    padding-left: 8px;
+}
