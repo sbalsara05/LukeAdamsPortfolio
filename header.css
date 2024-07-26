@@ -102,6 +102,27 @@ img {
         -1px 1px 0 #0b0b0b,  /* Bottom left */
         1px 1px 0 #0b0b0b;   /* Bottom right */
 }
+
+@media (max-width: 500px) {
+    .head-text-1 {
+        margin-top: 39px;
+
+        display: inline-block; /* Ensure the box width fits the text */
+        color: white; /* Text color */
+        background-color: black; /* Background color */
+        padding: 5px 10px; /* Adjust padding to create space around the text */
+        font-size: 55px;
+        text-shadow:
+            -1px -1px 0 #0b0b0b, /* Top left */
+            1px -1px 0 #0b0b0b,  /* Top right */
+            -1px 1px 0 #0b0b0b,  /* Bottom left */
+            1px 1px 0 #0b0b0b;   /* Bottom right */
+}
+
+
+}
+
+
 .sub-text-1 {
     display: inline-block; /* Ensure the box width fits the text */
     color: white; /* Text color */

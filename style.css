@@ -181,9 +181,13 @@ section .box {
 }
 
 .signature {
-    width: 80px;
+    width: 120px; /* Adjust the width as needed */
     color: black;
+    background-color: white;
+    /* Optionally set the height to auto to maintain aspect ratio */
+    height: auto;
 }
+
 
 .about-name-dark{
     color: black;
@@ -431,7 +435,7 @@ section .box {
 }
 
 #filter {
-    padding-left: 100px;
+    padding-left:200px;
     list-style: none;
     /*padding: 0;*/
     display: flex;
