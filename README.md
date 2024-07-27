@@ -1,4 +1,4 @@
-LukeAdamsPortfolio
+Luke Adams Personal Art Portfolio/Gallery
 
 Project Overview
 
