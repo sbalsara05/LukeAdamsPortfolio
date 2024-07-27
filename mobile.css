@@ -19,7 +19,7 @@ section .container {
 /*Header*/
 @media (max-width: 500px) {
     .head-text-1 {
-        margin-top: 42px;
+        margin-top: 50px;
 
         display: inline-block; /* Ensure the box width fits the text */
         color: white; /* Text color */
@@ -30,6 +30,20 @@ section .container {
     }
 }
 
+
+@media (max-width: 500px) {
+    .header {
+        background-image: url(./images/LukeAdamPhotos/lukeadams9_15.JPEG);
+        min-height: 100vh;
+        background-color: #000000;
+        background-position: center center;
+        background-size: 170%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+}
+
+}
 
 /*End of Header*/
 
@@ -61,7 +75,7 @@ section .container {
         font-weight: 400;
         text-decoration: none;
         text-transform: uppercase;
-        letter-spacing: 1.8px;
+        letter-spacing: 1.5px;
         display: inline-block; /* Ensure the box width fits the text */
         color: white; /* Text color */
         background-color: black; /* Background color */
@@ -684,6 +698,67 @@ section .box {
     background-image: url('./images/dots.png');
     background-repeat: repeat;
     z-index: 0;
+}
+
+/*Contact Section*/
+
+
+@media(max-width: 500px){
+    .contact .box-r .form-box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        background: #000000;
+        height: 100%;
+        width: 100%;
+        z-index: 100;
+        padding: 2rem 1rem;
+        top: 50px;
+
+}
+
+.contact .box-r:before {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    background-color: #5e88d7;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.box-r:after {
+    content: '';
+    width: 50%;
+    position: absolute;
+    top: 45px;
+    bottom: 55%;
+    left: -5%;
+    background-image: url('./images/dots.png');
+    background-repeat: repeat;
+    z-index: 0;
+}
+
+.title-text-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title-text-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-text-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 }
 
 .contact .form-box h2 {

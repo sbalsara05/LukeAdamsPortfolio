@@ -337,7 +337,7 @@ img {
     background-color: #000000d0;
     padding: 4rem 0rem;
 
-    border-bottom: 1px solid rgba(5, 5, 5, 0.1);
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 
@@ -418,4 +418,8 @@ img {
 }
 .text{
     padding-left: 8px;
+}
+
+.footer{
+    color: black;
 }
