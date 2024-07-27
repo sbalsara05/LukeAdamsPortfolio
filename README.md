@@ -2,7 +2,7 @@ Luke Adams Personal Art Portfolio/Gallery
 
 Project Overview
 
-Welcome to the LukeAdamsPortfolio repository! This project showcases the artistic works of Luke Adams, a talented teen
+Welcome to the Luke Adams Personal Art Portfolio/Gallery This project showcases the artistic works of Luke Adams, a talented teen
 artist from Westerly, Rhode Island. Under his brand, Just a Local Adolescent, Luke aims to establish himself in the art
 world, bringing his passion for photography, designs, patterns, and portraits to life.
 About Luke Adams
